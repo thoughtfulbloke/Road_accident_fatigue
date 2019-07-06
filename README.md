@@ -87,7 +87,7 @@ Random sampling to construct a typical day also offers a way of expressing the u
 
 
 
-![Figure 6: Per morning commute (normal day) per hour road accidents as a percentage of typical day accidents](README_files/figure-html/proportion, -1.png)
+![Figure 6: Per morning commute (normal day) per hour road accidents as a percentage of typical day accidents](README_files/figure-html/unnamed-chunk-7-1.png)
 
 It turns out that the elaborate day-neutral model has the same pattern as the morning rush of the day model, expect perhaps a very slightly clearer division between the evening hours. This suggests the morning rush is not particularly sensitive to the weekly fatigue pattern. Which given the data has shown the accident rate rising through the end of day period, suggests a nights rest is acting as a partial reset to weekly fatigue that wears off through the day.
 
@@ -101,7 +101,7 @@ Since we have a stable general pattern, I can take that pattern and express the 
 
 Based on the raw numbers, without any attempt to adjust for traffic volumes, compared to the lowest day in each hour (so ignoring the increase through the day) there is a excess of 6970 accidents due to work-week daily variation.
 
-Based on the normalised numbers, making a best possible attempt to adjust for traffic volumes, compared to the lowest day in each hour (so ignoring the increase through the day) there is a median excess of 5208 accidents due to work-week daily variation (with a 95% interval of 4467 to 6007 accidents).
+Based on the normalised numbers, making a best possible attempt to adjust for traffic volumes, compared to the lowest day in each hour (so ignoring the increase through the day) there is a median excess of 5201 accidents due to work-week daily variation (with a 95% interval of 4461 to 5999 accidents).
 
 This means, with 49730 accidents, this is around 14% for the raw values, or 9% to 12.1% for the vehicle volume adjusted model, are caused by weekly fatigue patterns.
 

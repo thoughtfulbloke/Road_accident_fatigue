@@ -210,7 +210,7 @@ normal_days <- bind_rows(lapply(1:trial_size, normalise_activity, weekday_n=1, d
           lapply(1:trial_size, normalise_activity, weekday_n=5, day_name="Fri"))
 ```
 
-```{r, proportion, , fig.cap="Figure 6: Per morning commute (normal day) per hour road accidents as a percentage of typical day accidents"}
+```{r, fig.cap="Figure 6: Per morning commute (normal day) per hour road accidents as a percentage of typical day accidents"}
 oia_used %>% filter(Severity != "Non-injury", !is.na(Hour)) %>%
   mutate(Weekday = as.character(wday(Date, label = TRUE))) %>% 
   filter(!(Weekday %in% c("Sat","Sun")))%>%
