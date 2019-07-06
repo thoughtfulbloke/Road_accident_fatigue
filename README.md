@@ -11,7 +11,7 @@ output:
 
 
 
-This is the easy read version with the code hidden, to see the R code you want [README.Rmd](The Rmarkdown version)
+This is the easy read version with the code hidden, to see the R code you want [The Rmarkdown version](README.Rmd)
 
 In 2018, Chris Knox from the New Zealand Herald made available the data results from an Official Information Act request for every road accident in New Zealand from the year 2000 grouped by hour of the day and severity of the accident[^1].
 
